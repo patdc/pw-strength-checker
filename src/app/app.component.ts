@@ -2,9 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: ` <password-card></password-card> `,
 })
-export class AppComponent {
-  title = 'pw-check';
-}
+export class AppComponent {}
