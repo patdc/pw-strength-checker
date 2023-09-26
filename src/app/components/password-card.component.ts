@@ -23,7 +23,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   template: `
     <div class="flex justify-center items-center h-screen">
       <div
-        class="p-4 bg-white border border-gray-200 rounded-lg shadow p-8 m-6 w-full md:w-8/12 lg:w-7/12 xl:w-4/12"
+        class="bg-white border border-gray-200 rounded-lg shadow p-8 m-6 w-full md:w-8/12 lg:w-7/12 xl:w-4/12"
       >
         <form class="space-y-6" [formGroup]="formPassword">
           <h5 class="text-xl font-medium text-gray-900 dark:text-white">
